@@ -1,0 +1,14 @@
+# Build outputs - don't track compiled libraries
+lib/
+include/
+share/
+repos/
+logs/
+
+# Keep rawtoaces binary (it's small and useful)
+!bin/rawtoaces
+
+# OS files
+.DS_Store
+*.pyc
+__pycache__/
